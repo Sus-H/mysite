@@ -40,6 +40,7 @@ img {
 
 nav {
     color: papayawhip; /* colors the bullets of list */
+    list-style: none; /* removes bullets */
     font-weight: bold;
     padding: 0;
     margin: 0;
@@ -71,9 +72,7 @@ nav {
     transition: all 0.3s ease-out;
 }
 
-.ul-contact-info {
-    list-style: none; /* removes bullets */
-}
+
 
 footer {
     background-color: pink;

@@ -39,7 +39,7 @@ img {
 }
 
 nav {
-    color: papayawhip; /* colors the bullets of list */
+    color:snow;
     list-style: none; /* removes bullets */
     font-weight: bold;
     padding: 0;

@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto Mono', monospace; /* Use 'Roboto Mono' as primary font, fallback to generic monospace font */
+    padding: 0;
+    margin: 0;
+}
+
+/* Add your other CSS styles here */
+
+
+header {
+    padding:  20px 20px;
+    background-color: pink;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.header-frame {
+    display: flex;
+    margin-left: 10px;
+    margin-right:10px;
+    justify-content: space-between;
+    align-items: center; /* vertical alignment, makes them align to center */
+
+
+}
+
+.title-nav {
+    align-items: flex-start;
+    padding: 20px;
+
+}
+
+h1:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+
+}
+
+
+img {
+    max-width: 100px;
+    max-height:fit-content; 
+}
+
+.img-header {
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    color: papayawhip; /* colors the bullets of list */
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color:snow;
+    text-decoration: none; /* Underline from link */
+    transition: all 0.3s ease-out;
+    margin: 10px;
+}
+
+nav a:hover {
+    color:navajowhite;
+    transform: scale(105%);
+    transition: 1s;
+}
+
+.linkedin{
+    color:snow;
+    text-decoration: none; /* Underline from link */
+    transition: all 0.3s ease-out;
+}
+
+.ul-contact-info {
+    list-style: none; /* removes bullets */
+}
+
+.ul-title-nav {
+    display: block; /* horizontal alignment */
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: pink;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    text-align: center; /* not using align-items because we only have text here. Only works on text. */
+    font-size: .9rem;
+}
